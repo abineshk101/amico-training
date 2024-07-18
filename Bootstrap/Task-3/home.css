@@ -1,0 +1,215 @@
+body{
+    color: rgba(0, 105, 151, 1);
+}
+.row {
+    --bs-gutter-x: 0rem;
+}
+a{
+    text-decoration: none;
+ }
+.pt-10{
+    padding-top: 5% !important;
+}
+ li{
+     list-style: none;
+ }
+#home_bg{
+    background-image: url('./public/page-1/home-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#nav-content>li>a{
+    color: rgba(26, 120, 161, 1);
+    font-weight: bold;
+    font-size: medium;
+}
+#nav-content>li>a:focus{
+    color:rgb(53,149,246); ;
+    text-decoration: underline rgb(53,149,246) solid 2px;
+    text-underline-offset: 10px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.footer_row>div>ul>h5{
+    color: rgba(1, 95, 137, 1);
+}
+
+@media screen and (max-width:576px) {
+    .para_content{
+        font-size: 14px;
+    }
+    #home_img1{
+        padding-top: 53%;
+    }
+    .home_space1{
+        width: 80%;
+        margin: auto;
+    }
+    .service_content>div>img{
+        width: 38%;
+    }
+    .service_content>div>p{
+        width: 75%;
+        margin: auto;
+    }
+    #home_img1>img{
+        width: 65%;
+    }
+    .decorate_img{
+        width: 50%;position: absolute;top: 85%;
+    }
+    .mobi-amico{
+        width: 35%;
+    }
+    .rating>img{
+        width: 12%;
+      }
+      .rating{
+          margin-top: 20px;
+      }
+      .y_amico_num>div>div>img{
+        width: 10%;
+    }.y_amico_num>div>div>div{
+      font-weight: 800;
+      top: 10px;
+      left: 38px;
+    }.y_amico_num>div>div>p{
+      text-indent:20px;
+      text-align:justify;
+       width: 80%;
+       font-size: 14px;
+    }
+    .footer_row>div>ul>h5{
+        font-weight: 700;
+        font-size: 17px;
+      }
+      .footer_row>div>ul>li>a>p,.foot_data{
+          font-size: 14px;
+      }.foot_input{
+          width: 100%;
+      }
+}
+
+@media screen and (min-width:576px) {
+    #home_img1{
+        padding-top: 30%;
+    }
+    .home_space1{
+    width: 80%;
+    margin: auto;
+    }
+    .service_content>div>img{
+        width: 40%;
+    }
+    .service_content>div>p{
+        width: 75%;
+        margin: auto;
+    }
+    #home_img1>img{
+        width: 65%;
+    }
+    .decorate_img{
+        width: 60%;position: absolute;top:66%;
+    }
+    .mobi-amico{
+        width: 35%;
+    }
+    .rating>img{
+        width: 10%;
+      }
+      .rating{
+          margin-top: 20px;
+      }
+      .y_amico_num>div>div>img{
+        width: 20%;
+    }.y_amico_num>div>div>div{
+      font-weight: 800;
+      top: 14px;
+      left: 42px;
+    }.y_amico_num>div>div>p{
+      text-indent:20px;
+      text-align:justify;
+       width: 80%;
+    }
+    .footer_row>div>ul>h5{
+        font-weight: 700;
+        font-size: 18px;
+      }
+      .footer_row>div>ul>li>a>p,.foot_data{
+          font-size: 15px;
+      }
+      .foot_input{
+          width: 75%;
+      }
+}
+
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 18px;
+    }
+    #home_img1{
+        padding-top: 15%;
+    }
+    .home_space1{
+        margin-left: 13%;
+    }
+    .dev_section>div>div{
+        width: 100%;
+    }
+    .decorate_img{
+        width: 50%;position: absolute;top: 63%;
+    }
+    .rating>img{
+        width: 16%;
+      }
+      .rating{
+          margin-top: 50px;
+      }
+      .mobi-amico{
+        width: 80%;
+    }
+    .footer_row>div>ul>h5{
+        font-weight: 700;
+      }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+      justify-content: end;
+    }
+    .service_content>div>img{
+      width: 75%;
+  }
+  #home_img1>img{
+      width: 95%;
+  }
+  .decorate_img{
+    width: 50%;position: absolute;top: 56%;
+}
+  .rating>img{
+    width: 13%;
+  }
+  .rating{
+      margin-top: 80px;
+  }
+  .mobi-amico{
+      width: 90%;
+  }
+  .y_amico_num>div>div>img{
+      width: 23%;
+  }.y_amico_num>div>div>div{
+    font-weight: 800;
+    top: 30px;
+    left: 73px;
+  }.y_amico_num>div>div>p{
+    text-indent:20px;
+    text-align:justify;
+     width: 83%;
+  }
+
+  .footer_row>div>ul>h5{
+    font-weight: 800;
+  }
+}

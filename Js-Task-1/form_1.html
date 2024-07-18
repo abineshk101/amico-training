@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="form.js"></script>
+    <title>Register</title>
+</head>
+
+<body>
+    <div id="content_border">
+        <h1 style="text-align: center;font-family:   sans-serif;">Detail Form</h1>
+        <div class="set_align">
+            <div>
+                <label><span class="star">*</span><span class="title_name"> First Name</span></label><br>
+                <input type="text" id="f-name" name="first_name" onkeyup="checkValid(this,undefined)" required><br><span
+                    id="first_name"></span><br><br>
+
+                <label><span class="title_name">Middle Name</span></label><br>
+                <input type="text" id="m-name" name="middle_name" onkeyup="checkValid(undefined,this)"><br><br>
+
+                <label><span class="title_name">Last Name</span></label><br>
+                <input type="text" id="l-name" name="last_name" onkeyup="checkValid(undefined,this)"><br><br>
+            </div><br>
+            <div>
+                <label><span class="star">*</span><span class="title_name"> Address Line 1 </span></label><br>
+                <textarea type="text" id="address_1" name="address-1" onkeyup="checkValid(this,undefined)"
+                    required></textarea><br><span id="address-1"></span><br><br>
+
+                <label><span class="title_name">Address Line 2</span></label><br>
+                <textarea type="text" id="address_2" name="address-2"
+                    onkeyup="checkValid(undefined,this)"></textarea><br><br>
+            </div>
+        </div>
+        <div class="set_align">
+            <div>
+                <label><span class="title_name">Date of Birth</span></label><br>
+                <input type="date" id="dob" name="date_of_birth" max="2006-06-25"
+                    onchange="checkValid(undefined,undefined,this)"><br><br>
+            </div>
+            <div>
+                <label><span class="star">*</span><span class="title_name"> Gender</span> </label><br>
+                <label>Male</label>
+                <input type="radio" class="gender" id="gender_male" name="gen" value="Male"
+                    onclick="checkValid(this,undefined)" required><br>
+                <label>Female</label>
+                <input type="radio" class="gender" id="gender_female" name="gen" value="Female"
+                    onclick="checkValid(this,undefined)" required><br><span id="gen"></span><br><br>
+            </div>
+        </div>
+        <div class="set_align">
+            <div>
+                <label><span class="title_name">City</span></label><br>
+                <input type="text" id="city" name="city_name" onkeyup="checkValid(undefined,this)"><br><br>
+            </div>
+            <div>
+                <label><span class="title_name">State</span></label><br>
+                <input type="text" id="state" name="state_name" onkeyup="checkValid(undefined,this)"><br><br>
+            </div>
+        </div>
+        <div class="set_align">
+            <div>
+                <label><span class="star">*</span><span class="title_name"> Country</span></label><br>
+                <input type="text" id="country" name="country_name" onkeyup="checkValid(this,undefined)"
+                    required><br><span id="country_name"></span><br><br>
+            </div>
+            <div>
+                <label><span class="star">*</span><span class="title_name"> Postel Code</span></label><br>
+                <input type="number" onkeypress="if(this.value.length>5)return false" name="post_code" id="p_code"
+                    onkeyup="checkValid(undefined,undefined,this)" required><br><span id="post_code"></span><br><br>
+            </div>
+        </div>
+
+        <button type="button" id="submit_btn" disabled>submit</button>
+
+    </div>
+
+</body>
+
+</html>

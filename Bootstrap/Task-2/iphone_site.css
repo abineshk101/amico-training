@@ -1,0 +1,129 @@
+.carousel-indicators{
+    bottom: -50px ;
+}
+.nav_hover:hover{
+    color: rgba(253, 191, 18, 1);
+}
+html,body{
+    scroll-behavior:smooth;
+    /* overflow-x: hidden; */
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    text-align: start;
+}
+figure{
+    text-align: center;
+}
+
+.fs-6 {
+    font-size: 19px !important;
+}
+.ms-6 {
+    margin-left: 8rem !important;
+}
+
+.p-5rem {
+    padding: 5rem !important;
+}
+.w-80 {
+    width: 80%;
+}
+
+@media screen and (min-width:768px) {
+    .w-md-80{
+        width: 90% !important;
+    }
+    .w-md-75{
+        width: 68% !important;
+    }
+    #input_sets>div>input,#input_sets>div>textarea{
+        width: 70%;
+    }
+    #service_image1>div>figure>img{
+         width: 180px
+    }
+    #about_content{
+        width: 80%;
+    }
+    .ms-8rem {
+        margin-left: 7rem !important;
+    }
+    .footer_head{
+        font-size: 10px;
+    }
+    .mt-6 {
+        margin-top: 5rem;
+      }
+      .content_width{
+        width: 65%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:766px){
+    #about_content{
+        width: 80%;
+    }
+    .w-md-80{
+        width: 80% !important;
+    }
+    .w-md-75{
+        width: 75% !important;
+    }
+    #service_image1>div>figure>img{
+         width: 160px
+    }
+    .ms-8rem {
+        margin-left: 3rem !important;
+    }
+    #open_quote{
+        width: 60px;
+    }
+    .content_width{
+        width: 70%;
+    }
+}
+@media screen and (max-width:576px) {
+    #about_content{
+        width: 80%;
+    }
+    #service_image1>div>figure>img{
+         width: 170px
+    }
+    .w-md-75{
+        width: 75% !important;
+    }
+    .ms-8rem{
+        margin-left: 3rem !important;
+    }
+    #open_quote{
+        width: 50px;
+    }
+    .content_width{
+        width:90%;
+    }
+}
+@media screen and (min-width:992px) {
+    #about_content{
+        width: 75%;
+    }
+    #service_image1>div>figure>img{
+         width: 230px
+    }
+    #input_sets>div>input,#input_sets>div>textarea{
+        width: 55%;
+    }
+    .ms-8rem {
+        margin-left: 7rem !important;
+    }
+    .gy-md-5 {
+        --bs-gutter-y: 8rem;
+    }
+    #open_quote{
+        width:75px;
+    }
+   
+}
