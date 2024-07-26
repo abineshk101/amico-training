@@ -1,0 +1,137 @@
+::placeholder{
+    color: rgba(0, 105, 151, 1);
+    font-weight:600;
+}
+input,textarea{
+    margin-bottom: 30px;
+    width: 100%;
+    border: dotted  rgba(0, 105, 151, 1) ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+input:focus,textarea:focus{
+    outline-style: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .para_content{
+        font-size: 13px;
+    }
+    .contact_vector2{
+        position:absolute;
+        text-align: end;
+        bottom:-7%
+    }
+    .contact_img2>div>img,.contact_img2>div>div{
+        width:100%;
+    }
+    .contact_detail>div>ul>li>img{
+        margin-right: 15px;
+        width: 20px;
+    }
+    .contact_detail>div>ul>li{
+        display: flex;
+        align-items: center;
+        font-weight:600;
+    }
+    .contact_detail>div>img{
+        width: 80%;
+    }
+
+}
+@media screen and (min-width:576px) {
+    .para_content{
+        font-size: 15px;
+    }
+    .contact_vector2{
+        position:absolute;
+        text-align: end;
+        bottom:-7%
+    }
+    .contact_img2>div>img,.contact_img2>div>div{
+        width:100%;
+    }
+    .contact_detail>div>ul>li>img{
+        margin-right: 15px;
+        width: 20px;
+    }
+    .contact_detail>div>ul>li{
+        display: flex;
+        align-items: center;
+        font-weight:600;
+    }
+    .contact_detail>div>img{
+        width: 80%;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 16px;
+    }
+    .contact_vector2{
+        position:absolute;
+        bottom:-20%
+    }
+    .contact_text{
+        width: 30%;
+        position: absolute;
+        top: 20%;
+    }
+    .contact_img2>div>img,.contact_img2>div>div{
+        position: relative;
+        top: -20%;
+    }
+    .contact_detail>div>ul>li>img{
+        margin-right: 15px;
+        width: 20px;
+    }
+    .contact_detail>div>ul>li{
+        display: flex;
+        align-items: center;
+        font-weight:600;
+    }
+    .contact_detail>div>img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .contact_img2>div>img,.contact_img2>div>div{
+        width:100%;
+        position: relative;
+        top: -20%;
+    }
+    .para_head{
+        font-size: 24px;
+    }
+    .contact_detail>div>ul>li>img{
+        margin-right: 15px;
+        width: 20px;
+    }
+    .contact_detail>div>ul>li{
+        display: flex;
+        align-items: center;
+        font-weight:600;
+    }
+    .contact_detail>div>img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .contact_text{
+        width: 30%;
+        position: absolute;
+        top: 50%;
+    }
+}
+
+

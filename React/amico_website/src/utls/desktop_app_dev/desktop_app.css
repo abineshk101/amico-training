@@ -1,0 +1,45 @@
+
+
+@media screen and (max-width:576px) {
+    .desktop_img1{
+        width: 70%;
+    }
+    .para_content{
+        font-size: 13px;
+    }
+    .desktop_vector2{
+        position:absolute;
+        bottom:-9%
+    }
+
+}
+@media screen and (min-width:576px) {
+    .para_content{
+        font-size: 15px;
+    }
+
+    .desktop_vector2{
+        position:absolute;
+        bottom:-12%
+    }
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 17px;
+    }
+    .desktop_vector1{
+        position:absolute;
+         top:78%
+    }
+    .desktop_vector2{
+        position:absolute;
+        bottom:-31%
+    }
+}
+
+@media screen and (min-width:992px) {
+    .desktop_vector2{
+        position:absolute;
+        bottom:-23%
+    }
+}

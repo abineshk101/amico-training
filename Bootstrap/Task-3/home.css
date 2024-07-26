@@ -13,11 +13,6 @@ a{
  li{
      list-style: none;
  }
-#home_bg{
-    background-image: url('./public/page-1/home-bg.png');
-    background-repeat:no-repeat;
-    background-size:cover;
-}
 #nav-content>li>a{
     color: rgba(26, 120, 161, 1);
     font-weight: bold;
@@ -31,21 +26,22 @@ a{
 .navbar-toggler:focus{
     box-shadow: none;
 }
-
+#home_bg{
+    background-image: url('./public/page-1/home-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 .footer_row>div>ul>h5{
     color: rgba(1, 95, 137, 1);
 }
 
 @media screen and (max-width:576px) {
-    .para_content{
-        font-size: 14px;
-    }
-    #home_img1{
-        padding-top: 55%;
-    }
     .home_space1{
         width: 80%;
         margin: auto;
+    }
+    .para_content{
+        font-size: 14px;
     }
     .service_content>div>img{
         width: 38%;
@@ -53,6 +49,9 @@ a{
     .service_content>div>p{
         width: 75%;
         margin: auto;
+    }
+    #home_img1{
+        padding-top: 55%;
     }
     #home_img1>img{
         width: 65%;
@@ -93,19 +92,19 @@ a{
 }
 
 @media screen and (min-width:576px) {
-    #home_img1{
-        padding-top: 30%;
-    }
     .home_space1{
-    width: 80%;
-    margin: auto;
-    }
+        width: 80%;
+        margin: auto;
+        }
     .service_content>div>img{
         width: 40%;
     }
     .service_content>div>p{
         width: 75%;
         margin: auto;
+    }
+    #home_img1{
+        padding-top: 30%;
     }
     #home_img1>img{
         width: 65%;
@@ -146,14 +145,14 @@ a{
 }
 
 @media screen and (min-width:768px) {
+    .home_space1{
+        margin-left: 13%;
+    }
     .para_content{
         font-size: 18px;
     }
     #home_img1{
         padding-top: 15%;
-    }
-    .home_space1{
-        margin-left: 13%;
     }
     .dev_section>div>div{
         width: 100%;
@@ -161,15 +160,15 @@ a{
     .decorate_img{
         width: 50%;position: absolute;top: 63%;
     }
+    .mobi-amico{
+        width: 80%;
+    }
     .rating>img{
         width: 16%;
       }
       .rating{
           margin-top: 50px;
       }
-      .mobi-amico{
-        width: 80%;
-    }
     .footer_row>div>ul>h5{
         font-weight: 700;
       }
@@ -208,7 +207,6 @@ a{
     text-align:justify;
      width: 83%;
   }
-
   .footer_row>div>ul>h5{
     font-weight: 800;
   }

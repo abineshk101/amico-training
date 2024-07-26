@@ -1,0 +1,79 @@
+@media screen and (max-width:576px) {
+    .consult_img1{
+        width: 70%;
+    }
+    .para_content{
+        font-size: 13px;
+    }
+    .consult_vector2{
+        position:absolute;
+        bottom:-9%
+    }
+    .consult_num{
+        width: 72%;
+    }
+    .consult_num>span{
+        position:absolute;
+        bottom: 2%;
+        left: 12%;
+        font-size: 18px;
+    }
+    .consult_num>img{
+        width: 60px;
+    }
+}
+@media screen and (min-width:576px) {
+    .consult_img1{
+        width: 70%;
+    }
+    .para_content{
+        font-size: 15px;
+    }
+
+    .consult_vector2{
+        position:absolute;
+        bottom:-12%
+    }
+    .consult_num{
+        width: 72%;
+    }
+    .consult_num>span{
+        position:absolute;
+        bottom: 2%;
+        left: 12%;
+        font-size:18px;
+    }
+    .consult_num>img{
+        width: 100px;
+    }
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 17px;
+    }
+    .consult_vector1{
+        position:absolute;
+         top:92%
+    }
+    .consult_vector2{
+        position:absolute;
+        bottom:-31%
+    }
+    .consult_num>span{
+        font-size:20px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    .consult_vector2{
+        position:absolute;
+        bottom:-23%
+    }
+    .consult_num>span{
+        position:absolute;
+        bottom: 2%;
+        left: 18%;
+    }
+}

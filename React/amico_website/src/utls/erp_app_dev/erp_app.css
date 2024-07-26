@@ -1,0 +1,72 @@
+
+@media screen and (max-width:576px) {
+    .web_app_img1{
+        width: 70%;
+    }
+    .para_content{
+        font-size: 13px;
+    }
+    .vector2{
+        position:absolute;
+        bottom:-52%
+    }
+    .erp_img2>div>img{
+        width: 45%;
+    }
+    .erp_app_dev>div>div>img{
+        width: 40%;
+    }
+}
+@media screen and (min-width:576px) {
+    .para_content{
+        font-size: 15px;
+    }
+    .content_vector2{
+        font-size: 15px;
+    }
+    .vector2{
+        position:absolute;
+        bottom:-52%
+    }
+    .erp_img2>div>img{
+        width: 45%;
+    }
+    .erp_app_dev>div>div>img{
+        width: 40%;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 17px;
+    }
+    .vector1{
+        position:absolute;
+         top:78%
+    }
+    .content_vector2{
+        font-size: 20px;
+    }
+    .vector2{
+        position:absolute;
+        bottom:-7%
+    }
+    .erp_img2>div>img{
+        width: 100%;
+    }
+    .erp_app_dev>div>div>img{
+        width: 60%;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .vector2{
+        position:absolute;
+        bottom:-7%
+    }
+    .erp_app_dev>div>div>img{
+        width: 60%;
+    }
+}
+

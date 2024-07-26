@@ -1,0 +1,72 @@
+
+
+@media screen and (max-width:576px) {
+    .ecom_img1{
+        width: 70%;
+    }
+    .para_content{
+        font-size: 13px;
+    }
+    .vector2{
+        position:absolute;
+        bottom:-24%
+    }
+    .ecom_dev_img>div>img{
+        width: 45%;
+    }
+    .ecom_shop>div>p{
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+}
+@media screen and (min-width:576px) {
+    .para_content{
+        font-size: 15px;
+    }
+
+    .vector2{
+        position:absolute;
+        bottom:-60%
+    }
+    .ecom_dev_img>div>img{
+        width: 70%;
+    }
+    .ecom_shop>div>p{
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 17px;
+    }
+    .ecom_vector1{
+        position:absolute;
+         top:78%
+    }
+
+    .vector2{
+        position:absolute;
+        bottom:-7%
+    }
+    .ecom_shop>div>p{
+        font-weight: bold;
+        font-size: 16px;
+
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .vector2{
+        position:absolute;
+        bottom:-7%
+    }
+    .ecom_shop>div>p{
+        font-weight: bold;
+    }
+
+}
+

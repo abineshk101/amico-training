@@ -1,0 +1,72 @@
+@media screen and (max-width:576px) {
+    .agile_img1{
+        width: 70%;
+    }
+    .para_content{
+        font-size: 13px;
+    }
+    .agile_vector2{
+        position:absolute;
+        bottom:10%
+    }
+    .agile_dev_img>div>img{
+        width: 45%;
+    }
+    .agile_dev_heading{
+        font-size: 15px;
+    }
+
+}
+@media screen and (min-width:576px) {
+    .para_content{
+        font-size: 15px;
+    }
+
+    .agile_vector2{
+        position:absolute;
+        bottom:2%
+    }
+    .agile_dev_img>div>img{
+        width: 90%;
+    }
+    .agile_dev_heading{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 17px;
+    }
+    .agile_vector1{
+        position:absolute;
+         top:93%
+    }
+    .agile_vector2{
+        position:absolute;
+        bottom:16%
+    }
+    .agile_dev_heading{
+        font-size: 20px;
+    }
+    .mt-5rem{
+        margin-top: 15% !important;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .agile_vector2{
+        position:absolute;
+        bottom:6%
+    }
+    .ecom_shop>div>p{
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .agile_vector2{
+        position:absolute;
+        bottom:0%
+    }
+}

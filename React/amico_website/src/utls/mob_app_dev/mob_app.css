@@ -1,0 +1,97 @@
+@media screen and (max-width:576px) {
+    .para_content{
+        font-size: 13px;
+    }
+    .mob_app-mobile{
+        width: 90%;
+    }
+    .mob_app-devrow>div>div>img{
+        width: 25%;
+    }
+    .mob_app-devrow>div>div>p{
+        width: 70%;
+    }
+    .spec_position{
+        top: 18%;
+        position: absolute;
+        width:100%
+    }
+    .spec_img{
+        width: 40%;
+    }
+
+}
+@media screen and (min-width:576px) {
+    .mob_app-devrow>div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mob_app-devrow>div>div>img{
+        width: 40%;
+    }
+    .mob_app-devrow>div>div>p{
+        width: 70%;
+    }
+
+    .spec_position{
+        top: 10%;
+        position: absolute;
+        width:100%
+    }
+    .spec_img{
+        width: 40%;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .para_content{
+        font-size: 17px;
+    }
+    .mob_app-devrow>div>div{
+        width: 45%;
+    }
+    .mob_app-devrow>div>div>img{
+        width: 80%;
+    }
+    .mob_app-devrow{
+        position: absolute;
+        top: 0%;
+    }
+    .mob_app-devrow>div>div>p{
+        width: 100%;
+    }
+    .mob_app_vector2{
+        padding-top:75%;
+        padding-bottom:5%
+    }
+
+    .spec_position{
+        top: 0%;
+        position: absolute;
+        width:100%
+    }
+    .spec_img{
+        width: 35%;
+    }
+}
+@media screen and (min-width:992px) {
+    .mob_app_vector2{
+        padding-top:24%;
+        padding-bottom:5%
+    }
+    .mob_app-devrow>div>div{
+        width: 100%;
+    }
+    .mob_app-devrow>div>div>img{
+        width: 100%;
+    }
+    .spec_position{
+        bottom: 0%;
+        position: absolute;
+        width:100%
+    }
+    .spec_img{
+        width: 30%;
+    }
+}
